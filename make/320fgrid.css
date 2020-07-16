@@ -1,0 +1,35 @@
+.grid320 {
+    display: flex;
+    height: 100%;
+    z-index: -100;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.grid320line {
+    height: -var(grid320-heigth);
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    width: -var(grid320-width-start-line);
+    background-image: linear-gradient(-var(grid320-background-color-invisible), -var(grid320-background-color-invisible));
+}
+
+.end {
+    width: -var(grid320-width-end-line);
+    background-image: linear-gradient(-var(grid320-background-color-invisible), -var(grid320-background-color-invisible));
+}
+
+.vis {
+    width: -var(grid320-width-visible-line);
+    background-image:
+    linear-gradient(to right, -var(grid320-background-color-visible), -var(grid320-background-color-visible));
+}
+
+.invis {
+    width: -var(grid320-width-invisible-line);
+    background-image: linear-gradient(-var(grid320-background-color-invisible), -var(grid320-background-color-invisible));
+}

@@ -1,0 +1,19 @@
+{
+    "grid320": {
+        "heigth": "1470px",
+        "width": {
+            "start-line": "4.4%",
+            "invisible-line": "9.5%",
+            "visible-line": "7.3%",
+            "end-line": "4.3%"
+        },
+        "opacity": {
+            "invisible": 0,
+            "visible": 0
+        },
+        "background-color": {
+            "invisible": "white",
+            "visible": "rgba(255, 127, 64, 0.2)"
+        }
+    }
+}

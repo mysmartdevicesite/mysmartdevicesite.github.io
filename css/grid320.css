@@ -1,0 +1,37 @@
+
+/*** ./320fgrid.css ***/
+.grid320 {
+    display: flex;
+    height: 100%;
+    z-index: -100;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.grid320line {
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+    width: 4.4%;
+    background-image: linear-gradient(white, white);
+}
+
+.end {
+    width: 4.3%;
+    background-image: linear-gradient(white, white);
+}
+
+.vis {
+    width: 7.3%;
+    background-image:
+    linear-gradient(to right, rgba(255, 127, 64, 0.2), rgba(255, 127, 64, 0.2));
+}
+
+.invis {
+    width: 9.5%;
+    background-image: linear-gradient(white, white);
+}
