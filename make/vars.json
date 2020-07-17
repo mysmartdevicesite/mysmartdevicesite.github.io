@@ -1,6 +1,24 @@
 {
     "grid320": {
-        "heigth": "1470px",
+        "heigth-percentage": "1546vw",
+        "heigth-mm": 17.5,
+        "main-section": {
+            "top": {
+                "heigth": "209vw"
+            },
+            "desc": {
+                "heigth": "591vw"
+            },
+            "photos": {
+                "heigth": "346vw"
+            },
+            "blue": {
+                "heigth": "200vw"
+            },
+            "bottom": {
+                "heigth": "200vw"
+            }
+        },
         "width": {
             "start-line": "4.4%",
             "invisible-line": "9.5%",

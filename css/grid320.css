@@ -1,16 +1,17 @@
 
 /*** ./320fgrid.css ***/
+
 .grid320 {
     display: flex;
     height: 100%;
-    z-index: -100;
     justify-content: flex-start;
     margin: 0;
     padding: 0;
+    z-index: 10;
 }
 
 .grid320line {
-    height: 1000px;
+    height: 1546vw;
     margin: 0;
     padding: 0;
 }
@@ -34,4 +35,47 @@
 .invis {
     width: 9.5%;
     background-image: linear-gradient(white, white);
+}
+
+/*** ./verical.css ***/
+.all {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    opacity: 0.5;
+    transform: translateY(-100%);
+}
+
+.top {
+    flex-basis: 209vw;
+    /*background-image: url(../img/Rectangle.png) url(../img/image\ 2.png);*/
+    background-image: url(../img/image\ 2.png);
+    align-content: stretch;
+}
+
+.desc {
+    flex-basis: 591vw;
+    background-image: linear-gradient(to right, green, magenta);
+    align-content: stretch;
+}
+
+.photos {
+    flex-basis: 346vw;
+    background-image: linear-gradient(to right, blue, red);
+    align-content: stretch;
+}
+
+.blue {
+    flex-basis: 200vw;
+    background-image: linear-gradient(to right, gray, brown);
+    align-content: stretch;
+}
+
+
+.bottom {
+    flex-basis: 200vw;
+    background-image: linear-gradient(to right, violet, gray);
+    align-content: stretch;
 }
