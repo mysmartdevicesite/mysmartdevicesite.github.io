@@ -9,8 +9,10 @@
 
 .top {
     flex-basis: -var(grid320-main-section-top-heigth);
-    background-color: #1B2D37;
-    background-image: url(../img/image\ 2.png);
+    background: 
+        url(../img/image\ 2.png),
+        linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
+    background-size: 55vh;
     align-content: stretch;
     display: flex;
     flex-direction: column;

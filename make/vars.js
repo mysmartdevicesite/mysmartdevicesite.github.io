@@ -40,8 +40,8 @@ module.exports  = {
             "visible": 0
         },
         "background-color": {
-            "invisible": "white",
-            "visible": "rgba(255, 127, 64, 0.2)"
+            "invisible": "rgba(0, 0, 0, 0)",
+            "visible": "rgba(255, 0, 0, 1)"
         }
     }
 }
