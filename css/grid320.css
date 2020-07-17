@@ -8,10 +8,12 @@
     margin: 0;
     padding: 0;
     z-index: 10;
+    opacity: 0.03;
+    transform: translateY(-100%);
 }
 
 .grid320line {
-    height: 1546vw;
+    height: 1236.8000000000002vw;
     margin: 0;
     padding: 0;
 }
@@ -44,38 +46,83 @@
     margin: 0;
     padding: 0;
     z-index: 100;
-    opacity: 0.5;
-    transform: translateY(-100%);
+    opacity: 1;
 }
 
 .top {
-    flex-basis: 209vw;
-    /*background-image: url(../img/Rectangle.png) url(../img/image\ 2.png);*/
+    flex-basis: 167.20000000000002vw;
+    background-color: #1B2D37;
     background-image: url(../img/image\ 2.png);
     align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .desc {
-    flex-basis: 591vw;
+    flex-basis: 472.8vw;
     background-image: linear-gradient(to right, green, magenta);
     align-content: stretch;
 }
 
 .photos {
-    flex-basis: 346vw;
+    flex-basis: 276.8vw;
     background-image: linear-gradient(to right, blue, red);
     align-content: stretch;
 }
 
 .blue {
-    flex-basis: 200vw;
+    flex-basis: 160vw;
     background-image: linear-gradient(to right, gray, brown);
     align-content: stretch;
 }
 
 
 .bottom {
-    flex-basis: 200vw;
+    flex-basis: 160vw;
     background-image: linear-gradient(to right, violet, gray);
     align-content: stretch;
 }
+
+/*** ./top.css ***/
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img91 {
+    margin-top: 5vw;
+    margin-left: 5%;
+    flex-basis: 12%;
+}
+
+.righttop {
+    margin-left: 32.5vw;
+    flex-basis: 100%;
+}
+
+.rightelement {
+    display: inline-block;
+}
+.group20 {
+    width: 8vw;
+    margin-top: 8vw;
+    height: 8vw;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 0;
+}
+
+.env18 {
+    width: 20px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.env17 {
+    width: 20px;
+    margin-left: 10px;
+    padding: 0;
+}
+

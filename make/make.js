@@ -12,7 +12,7 @@ const pname = process.argv[2]
 const parts = process.argv.slice(3);
 const me = process.argv[1];
 const mypath = path.resolve(path.dirname(me));
-const hnames = JSON.parse(fs.readFileSync(path.join(mypath, "vars.json"), {encoding: "utf8"}));
+const hnames = require(path.join(mypath, "vars.js"));
 const names = {};
 
 function addPrefix(prefix, a) {
