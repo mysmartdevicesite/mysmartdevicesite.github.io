@@ -1,10 +1,11 @@
 
-const height = 1546.0;
-const topHeight = 209.0;
+const topHeight = 280.0;
 const descHeight = 591.0;
 const photosHeight = 346.0;
 const blueHeight = 200.0;
 const bottomHeight = 200.0;
+
+const height = topHeight + descHeight + photosHeight + blueHeight + bottomHeight;
 
 const modif = (x) => (x*0.8) + "vw"
 
