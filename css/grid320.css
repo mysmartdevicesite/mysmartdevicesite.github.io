@@ -140,5 +140,38 @@
 }
 
 .u12 {
-    transform: scale(1.3) translate(14vw, 10vh);
+    width: 85vw;
+    transform: translate(8vw, 4vh);
+}
+
+.whatabout {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12vw;
+    line-height: 7vh;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: translate(3vw, 0vh);
+}
+
+.detailed-a {
+    float: left;
+    content: '';
+    width: 8vw;
+    border-bottom: 1px solid white;
+}
+
+.detailed-b {
+    float: right;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.5vw;
+    line-height: 3vh;
+    color: #FFFFFF;
+}
+
+.detailed::before {
 }
