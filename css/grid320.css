@@ -1,6 +1,5 @@
 
 /*** ./320fgrid.css ***/
-
 .grid320 {
     display: flex;
     height: 100%;
@@ -10,10 +9,12 @@
     z-index: 10;
     opacity: 0.06;
     transform: translateY(-100%);
+    width: 320px;
+    height: 3681px;
 }
 
 .grid320line {
-    height: 1293.6000000000001vw;
+    height: 3681px;
     margin: 0;
     padding: 0;
 }
@@ -47,14 +48,16 @@
     padding: 0;
     z-index: 100;
     opacity: 1;
+    width: 320px;
+    height: 3681px;
 }
 
 .top {
-    flex-basis: 224vw;
+    flex-basis: 641px;
     background: 
         url(../img/image\ 2.png),
         linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
-    background-size: 55vh;
+    background-size: 3256px;
     align-content: stretch;
     display: flex;
     flex-direction: column;
@@ -63,41 +66,41 @@
 }
 
 .desc {
-    flex-basis: 472.8vw;
+    flex-basis: 606px;
     background-image: linear-gradient(to right, green, magenta);
     align-content: stretch;
 }
 
 .photos {
-    flex-basis: 276.8vw;
+    flex-basis: 1106px;
     background-image: linear-gradient(to right, blue, red);
     align-content: stretch;
 }
 
 .blue {
-    flex-basis: 160vw;
+    flex-basis: 636px;
     background-image: linear-gradient(to right, gray, brown);
     align-content: stretch;
 }
 
 
 .bottom {
-    flex-basis: 160vw;
+    flex-basis: 692px;
     background-image: linear-gradient(to right, violet, gray);
     align-content: stretch;
 }
 
 /*** ./top.css ***/
 .header {
-    margin-top: 3vh;
-    margin-left: 5vw;
+    margin-top: 0px;
+    margin-left: 16px;
     padding: 0;
 }
 
 .env91 {
-    width: 11vw;
+    width: 35.2px;
     padding: 0;
-    margin-right: 34vw;
+    margin-right: 108.8px;
 }
 
 .rightelement {
@@ -105,28 +108,28 @@
 }
 
 .righttop {
-    width: 41vw;
+    width: 131.2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(-2vh);
+    transform: translateY(-11px);
 }
 
 .group20 {
-    width: 10vw;
-    height: 1.5vh;
+    width: 32px;
+    height: 8px;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 0;
 }
 
 .env18 {
-    width: 7vw;
+    width: 22.4px;
     padding: 0;
 }
 
 .env17 {
-    width: 7vw;
+    width: 22.4px;
     padding: 0;
 }
 
@@ -138,28 +141,28 @@
 }
 
 .u12 {
-    width: 90vw;
-    transform: translate(8vw, 4vh);
+    width: 28px;
+    transform: translate(25.6px, 20px);
 }
 
 .whatabout {
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 12vw;
-    line-height: 7vh;
+    font-size: 38.4px;
+    line-height: 41px;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #FFFFFF;
-    transform: translate(3vw, 0vh);
+    transform: translate(9.6px, 0px);
 }
 
 .detailed-a {
     float: left;
     content: '';
-    width: 10vw;
+    width: 32px;
     border-bottom: 1px solid white;
-    transform: translate(5vw, 5.5vh);
+    transform: translate(16px, 32px);
 }
 
 .detailed-b {
@@ -167,35 +170,36 @@
     font-family: PT Mono;
     font-style: normal;
     font-weight: normal;
-    font-size: 4.8vw;
-    line-height: 3.5vh;
+    font-size: 15.36px;
+    line-height: 20px;
     color: #FFFFFF;
-    transform: translate(-8vw, 4vh);
+    transform: translate(-25.6px, 23px);
 }
 
 .freeconsult {
     border: none;
     padding: 0;
-    border-radius: 2vw;
+    border-radius: 6.4px;
     background-color: #00b2ff;
-    width: 87vw;
-    height: 10vh;
+    width: 278.4px;
+    height: 60px;
     color: white;
-    transform: translate(5vw, 12vh);
+    transform: translate(16px, 71px);
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 6vw;
-    line-height: 10vh;
+    font-size: 19.2px;
+    line-height: 0.6px;
+    letter-spacing: 0.16px;
     text-align: center;
-    letter-spacing: 0.05vw;
     text-transform: uppercase;
 }
 
 .polygon {
     position: absolute;
-    left: 34vw;
-    top: 30vh;
+    left: 108.8px;
+    top: 17px;
     transform: scale(3.8);
 }
+

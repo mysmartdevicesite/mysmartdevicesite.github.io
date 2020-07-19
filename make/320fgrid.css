@@ -1,4 +1,3 @@
-
 .grid320 {
     display: flex;
     height: 100%;
@@ -8,31 +7,33 @@
     z-index: 10;
     opacity: 0.06;
     transform: translateY(-100%);
+    width: VAR(grid320-width);
+    height: VAR(grid320-height);
 }
 
 .grid320line {
-    height: -var(grid320-heigth-percentage);
+    height: VAR(grid320-height);
     margin: 0;
     padding: 0;
 }
 
 .start {
-    width: -var(grid320-width-start-line);
-    background-image: linear-gradient(-var(grid320-background-color-invisible), -var(grid320-background-color-invisible));
+    width: VAR(grid320-width-of-start-line);
+    background-image: linear-gradient(VAR(grid320-background-color-invisible), VAR(grid320-background-color-invisible));
 }
 
 .end {
-    width: -var(grid320-width-end-line);
-    background-image: linear-gradient(-var(grid320-background-color-invisible), -var(grid320-background-color-invisible));
+    width: VAR(grid320-width-of-end-line);
+    background-image: linear-gradient(VAR(grid320-background-color-invisible), VAR(grid320-background-color-invisible));
 }
 
 .vis {
-    width: -var(grid320-width-visible-line);
+    width: VAR(grid320-width-of-visible-line);
     background-image:
-    linear-gradient(to right, -var(grid320-background-color-visible), -var(grid320-background-color-visible));
+    linear-gradient(to right, VAR(grid320-background-color-visible), VAR(grid320-background-color-visible));
 }
 
 .invis {
-    width: -var(grid320-width-invisible-line);
-    background-image: linear-gradient(-var(grid320-background-color-invisible), -var(grid320-background-color-invisible));
+    width: VAR(grid320-width-of-invisible-line);
+    background-image: linear-gradient(VAR(grid320-background-color-invisible), VAR(grid320-background-color-invisible));
 }

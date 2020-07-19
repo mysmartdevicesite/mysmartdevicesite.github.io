@@ -37,9 +37,12 @@ console.log("NAMES:", names);
 
 var result = "";
 for (const part of parts) {
+    console.log("");
     var code = fs.readFileSync(part, {encoding: "utf8"});
     for (const name in names) {
-        code = code.split(`-var(${name})`).join(names[name]);
+        if (!(name in names)) throw `no ${name} in ${names}`;
+        console.log("CHANGE", `VAR(${name})`, 'to', names[name], 'in', part);
+        code = code.split(`VAR(${name})`).join(names[name]);
     }
     result += `\n/*** ${part} ***/\n`;
     result += code + "\n";

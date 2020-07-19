@@ -4,28 +4,28 @@
 }
 
 .u12 {
-    width: 90vw;
-    transform: translate(8vw, 4vh);
+    width: 28px;
+    transform: translate(25.6px, 20px);
 }
 
 .whatabout {
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 12vw;
-    line-height: 7vh;
+    font-size: 38.4px;
+    line-height: 41px;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #FFFFFF;
-    transform: translate(3vw, 0vh);
+    transform: translate(9.6px, 0px);
 }
 
 .detailed-a {
     float: left;
     content: '';
-    width: 10vw;
+    width: 32px;
     border-bottom: 1px solid white;
-    transform: translate(5vw, 5.5vh);
+    transform: translate(16px, 32px);
 }
 
 .detailed-b {
@@ -33,35 +33,35 @@
     font-family: PT Mono;
     font-style: normal;
     font-weight: normal;
-    font-size: 4.8vw;
-    line-height: 3.5vh;
+    font-size: 15.36px;
+    line-height: 20px;
     color: #FFFFFF;
-    transform: translate(-8vw, 4vh);
+    transform: translate(-25.6px, 23px);
 }
 
 .freeconsult {
     border: none;
     padding: 0;
-    border-radius: 2vw;
+    border-radius: 6.4px;
     background-color: #00b2ff;
-    width: 87vw;
-    height: 10vh;
+    width: 278.4px;
+    height: 60px;
     color: white;
-    transform: translate(5vw, 12vh);
+    transform: translate(16px, 71px);
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 6vw;
-    line-height: 10vh;
+    font-size: 19.2px;
+    line-height: 0.6px;
+    letter-spacing: 0.16px;
     text-align: center;
-    letter-spacing: 0.05vw;
     text-transform: uppercase;
 }
 
 .polygon {
     position: absolute;
-    left: 34vw;
-    top: 30vh;
+    left: 108.8px;
+    top: 17px;
     transform: scale(3.8);
 }

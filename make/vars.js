@@ -1,36 +1,38 @@
+const vw = x => x*width/100;
+const vh = x => x*height/100;
 
-const topHeight = 280.0;
-const descHeight = 591.0;
-const photosHeight = 346.0;
-const blueHeight = 200.0;
-const bottomHeight = 200.0;
+const width = 7029 - 6709;
+
+const topHeight = 1841 - 1200;
+const descHeight = 1200 - 594;
+const photosHeight = 1700 - 594;
+const blueHeight = 2336 - 1700;
+const bottomHeight = 3028-2336;
 
 const height = topHeight + descHeight + photosHeight + blueHeight + bottomHeight;
 
-const modif = (x) => (x*0.8) + "vw"
-
 module.exports  = {
     "grid320": {
-        "heigth-percentage": modif(height),
-        "heigth-mm": 17.5,
+        "width": width+"px",
+        "height": height+"px",
         "main-section": {
             "top": {
-                "heigth": modif(topHeight)
+                "height": topHeight+"px"
             },
             "desc": {
-                "heigth": modif(descHeight)
+                "height": descHeight+"px"
             },
             "photos": {
-                "heigth": modif(photosHeight)
+                "height": photosHeight+"px"
             },
             "blue": {
-                "heigth": modif(blueHeight)
+                "height": blueHeight+"px"
             },
             "bottom": {
-                "heigth": modif(bottomHeight)
+                "height": bottomHeight+"px"
             }
         },
-        "width": {
+        "width-of": {
             "start-line": "4.4%",
             "invisible-line": "9.5%",
             "visible-line": "7.3%",

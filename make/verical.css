@@ -5,14 +5,16 @@
     padding: 0;
     z-index: 100;
     opacity: 1;
+    width: VAR(grid320-width);
+    height: VAR(grid320-height);
 }
 
 .top {
-    flex-basis: -var(grid320-main-section-top-heigth);
+    flex-basis: VAR(grid320-main-section-top-height);
     background: 
         url(../img/image\ 2.png),
         linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
-    background-size: 55vh;
+    background-size: 3256px;
     align-content: stretch;
     display: flex;
     flex-direction: column;
@@ -21,26 +23,26 @@
 }
 
 .desc {
-    flex-basis: -var(grid320-main-section-desc-heigth);
+    flex-basis: VAR(grid320-main-section-desc-height);
     background-image: linear-gradient(to right, green, magenta);
     align-content: stretch;
 }
 
 .photos {
-    flex-basis: -var(grid320-main-section-photos-heigth);
+    flex-basis: VAR(grid320-main-section-photos-height);
     background-image: linear-gradient(to right, blue, red);
     align-content: stretch;
 }
 
 .blue {
-    flex-basis: -var(grid320-main-section-blue-heigth);
+    flex-basis: VAR(grid320-main-section-blue-height);
     background-image: linear-gradient(to right, gray, brown);
     align-content: stretch;
 }
 
 
 .bottom {
-    flex-basis: -var(grid320-main-section-bottom-heigth);
+    flex-basis: VAR(grid320-main-section-bottom-height);
     background-image: linear-gradient(to right, violet, gray);
     align-content: stretch;
 }
