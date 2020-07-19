@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-.u12 {
-    width: 28px;
-    transform: translate(25.6px, 20px);
-}
-
 .whatabout {
     font-family: Roboto Condensed;
     font-style: normal;
@@ -17,7 +12,9 @@
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #FFFFFF;
-    transform: translate(9.6px, 0px);
+    z-index: 13;
+    margin-top: 12px;
+    margin-left: 0px;
 }
 
 .detailed-a {
@@ -60,8 +57,10 @@
 }
 
 .polygon {
+    width: 1446.5;
+    height: 715.72;
     position: absolute;
-    left: 108.8px;
-    top: 17px;
-    transform: scale(3.8);
+    left: 10px;
+    top: -2px;
+    z-index: 11;
 }
