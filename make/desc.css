@@ -1,0 +1,40 @@
+.desc {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    flex-basis: VAR(grid320-main-section-desc-height);
+    align-content: center;
+}
+
+.info {
+    margin-left: 14px;
+    margin-right: 16px;
+    width: 290px;
+    border: 1px solid #ebebeb;
+    border-left: 1.99px solid #00B2FF;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms {
+    margin-top: 37px;
+}
+
+.terms-img {
+    align-self: flex-start;
+    margin: auto 27.52px 14.13px 24.55px;
+}
+
+.terms-header {
+    width: 250.75px;
+    height: 20.86px;
+    color: #00b2ff;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 140.62%;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 27.28px;
+    margin-top: 14.13px;
+}
