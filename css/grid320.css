@@ -50,6 +50,7 @@
     opacity: 1;
     width: 320px;
     height: 3681px;
+    clip-path: content-box;
 }
 
 .top {
