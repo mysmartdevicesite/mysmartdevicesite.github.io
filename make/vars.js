@@ -4,10 +4,10 @@ const vh = x => x*height/100;
 const width = 7029 - 6709;
 
 const topHeight = 1841 - 1200;
-const descHeight = 1200 - 594;
+const descHeight = 1200 + 594;
 const photosHeight = 1700 - 594;
 const blueHeight = 2336 - 1700;
-const bottomHeight = 3028-2336;
+const bottomHeight = 3028 - 2336;
 
 const height = topHeight + descHeight + photosHeight + blueHeight + bottomHeight;
 
