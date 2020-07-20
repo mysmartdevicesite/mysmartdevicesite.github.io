@@ -7,7 +7,7 @@
     opacity: 1;
     width: VAR(grid320-width);
     height: VAR(grid320-height);
-    border: 2px solid #666666;
+    border: 1.5px solid #999999;
     clip-path: stroke-box;
 }
 
@@ -30,19 +30,19 @@
 
 .photos {
     flex-basis: VAR(grid320-main-section-photos-height);
-    background-image: linear-gradient(to right, blue, red);
+    background-image: linear-gradient(to right, #1B2D37, #1B2D37);
     align-content: stretch;
 }
 
 .blue {
     flex-basis: VAR(grid320-main-section-blue-height);
-    background-image: linear-gradient(to right, gray, brown);
+    background-image: linear-gradient(to right, #00b2ff, #00b2ff);
     align-content: stretch;
 }
 
 
 .bottom {
     flex-basis: VAR(grid320-main-section-bottom-height);
-    background-image: linear-gradient(to right, violet, gray);
+    background-image: linear-gradient(to right, white, white);
     align-content: stretch;
 }
