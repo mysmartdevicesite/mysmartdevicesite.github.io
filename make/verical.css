@@ -11,15 +11,19 @@
 
 .top {
     flex-basis: VAR(grid320-main-section-top-height);
-    background: 
-        url(../img/image\ 2.png),
-        linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
-    background-size: 3256px;
     align-content: stretch;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+
+    background:
+        url(../img/image\ 2.png),
+        linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
+    ;
+    background-size: contain; /*1446.5px 661.47px;*/
+    background-position: -624.18px -14.47px;
+
 }
 
 .desc {

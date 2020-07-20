@@ -54,15 +54,19 @@
 
 .top {
     flex-basis: 641px;
-    background: 
-        url(../img/image\ 2.png),
-        linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
-    background-size: 3256px;
     align-content: stretch;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+
+    background:
+        url(../img/image\ 2.png),
+        linear-gradient(rgb(27, 45, 55), rgb(27, 45, 55));
+    ;
+    background-size: contain; /*1446.5px 661.47px;*/
+    background-position: -624.18px -14.47px;
+
 }
 
 .desc {
@@ -147,8 +151,11 @@
 .u12 {
     width: 301px;
     height: 220px;
-    transform: translateY(37px);
+    transform: translate(12px, 37px);
     z-index: 12;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -174,47 +181,58 @@
 }
 
 .detailed-a {
-    float: left;
-    content: '';
-    width: 32px;
-    border-bottom: 1px solid white;
-    transform: translate(16px, 32px);
+    width: 33px;
+    margin-top: 42px;
+    border-bottom: 2px solid white;
 }
 
 .detailed-b {
-    float: right;
+    margin-top: 30px;
+    padding-left: 15px;
     font-family: PT Mono;
     font-style: normal;
     font-weight: normal;
-    font-size: 15.36px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 156.8%;
+    letter-spacing: 0;
+    text-align: left;
     color: #FFFFFF;
-    transform: translate(-25.6px, 23px);
 }
 
-.freeconsult {
+.freeconsult-button {
     border: none;
     padding: 0;
-    border-radius: 6.4px;
+    border-radius: 5px;
     background-color: #00b2ff;
-    width: 278.4px;
-    height: 60px;
+    width: 287px;
+    height: 55px;
     color: white;
-    transform: translate(16px, 71px);
+    margin-top: 42px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00B2FF;
+    position: relative;
+}
 
+.freeconsult-text {
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 19.2px;
-    line-height: 0.6px;
-    letter-spacing: 0.16px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
+
+    position: absolute;
+    width: 265px;
+    height: 24px;
+    left: 11px;
+    top: 17px;
 }
 
 .polygon {
     width: 1446.5;
     height: 715.72;
+    transform: scale(0.98) translate(5px, -5px);
     position: absolute;
     left: 10px;
     top: -2px;
